@@ -8,7 +8,7 @@
     <title>Pigmentos</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navidad.css">
-    <link rel="icon" href="images/LOGO.png">
+    <link rel="icon" href="/images/LOGO.png">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     </header>
 
     <div class="container-eslogan">
-        <img src="images/tigre.jpg"  title="Imagen de tigre" alt="Tigre">
+        <img src="images/tigre.jpg"  title="Imagen de tigre" alt="Tigre" id="eslogan">
         <p class="eslogan-txt">
             En Pigmentos, nos apasiona dar vida a tus ideas con productos personalizados
             y soluciones de impresión innovadoras. Nuestra trayectoria nos respalda, y
@@ -46,31 +46,31 @@
             <div class="slide-inner">
                 <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
                 <div class="slide-item">
-                    <img src="images/Escolares.png" alt="Escolares">
+                    <img src="images/Escolares.jpg" alt="Escolares">
                 </div>
                 <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
                 <div class="slide-item">
-                    <img src="images/Navidad.png" alt="Navidad">
+                    <img src="images/Navidad.jpg" alt="Navidad">
                 </div>
                 <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
                 <div class="slide-item">
-                    <img src="images/Septiembre.png" alt="Septiembre">
+                    <img src="images/Septiembre.jpg" alt="Septiembre">
                 </div>
                 <input class="slide-open" type="radio" id="slide-4" name="slide" aria-hidden="true" hidden="">
                 <div class="slide-item">
-                    <img src="images/Dia de muertos.png" alt="Día de muertos">
+                    <img src="images/Dia de muertos.jpg" alt="Día de muertos">
                 </div>
                 <input class="slide-open" type="radio" id="slide-5" name="slide" aria-hidden="true" hidden="">
                 <div class="slide-item">
-                    <img src="images/Hallowen.png" alt="Halloween">
+                    <img src="images/Hallowen.jpg" alt="Halloween">
                 </div>
                 <input class="slide-open" type="radio" id="slide-6" name="slide" aria-hidden="true" hidden="">
                 <div class="slide-item">
-                    <img src="images/Año nuevo.png" alt="Año nuevo">
+                    <img src="images/Año nuevo.jpg" alt="Año nuevo">
                 </div>
                 <input class="slide-open" type="radio" id="slide-7" name="slide" aria-hidden="true" hidden="">
                 <div class="slide-item">
-                    <img src="images/sanvalentin.png" alt="San Valentín">
+                    <img src="images/sanvalentin.jpg" alt="San Valentín">
                 </div>
 
                 <label for="slide-6" class="slide-control prev control-1">‹</label>
@@ -100,13 +100,13 @@
             </div>
         </div>
 
-        <a id="infoButton" title="" class="info-button"> Desliza → </a> 
+        <a id="infoButton" title="" class="info-button">  </a> 
     </section>
 
     <section class="about container" id="about">
         <div class="container-imprenta">
             <img src="images/people.jpg" alt="Impresora con páginas de muchos colores"  title="Imagen de impresora" >
-            <h2  title="Quiénes somos" >Quiénes somos</h2>
+            <h2  title="Quiénes somos" id="quienessomos">Quiénes somos</h2>
             <div class="txt-p">
             <p> 
                 Pigmentos es una imprenta con 22 años de historia en Reynosa, Tamaulipas.
@@ -126,7 +126,7 @@
         </div>
     </section>
 
-        <div class="mapa">
+        <div class="mapa" id="map">
             <h2  title="Nuestra Ubicación" >Nuestra Ubicación</h2>
             <div class="map-container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.2015774368715!2d-98.35331610998179!3d26.05966781738541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8665059bdd6c2227%3A0xba8883e7a9c32308!2sPigmentos!5e0!3m2!1ses!2smx!4v1729136404766!5m2!1ses!2smx"
@@ -135,10 +135,18 @@
             </div>
     </div>
 
+    
+    <!-- Botón para subir arriba -->
+    <button id="scrollTopBtn">⬆</button>
+
+
     <div id="footer-container"></div>
-    <script src="js/footer.js" defer></script>
-    <script src="js/menu.js" defer></script>
-    <script src="js/script.js" defer></script>
+    <script src="/js/footer.js" defer></script>
+    <script src="/js/menu.js" defer></script>
+    <script src="/js/script.js" defer></script>
+    <script src="/js/formulario.js" defer></script>
+    <script src="/js/vermas.js" defer></script>
+    <script src="/js/boton.js" defer></script>
 
 </body>
 
