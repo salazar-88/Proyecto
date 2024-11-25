@@ -1385,7 +1385,7 @@ textarea:not(:placeholder-shown) + label {
     }
 
     .footer-content p {
-        font-size: 14px;
+        font-size: 11px;
         width: 190px;
     }
 
